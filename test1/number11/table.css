@@ -1,0 +1,26 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    
+    
+}
+th{
+    border-top:solid greenyellow;
+    border-top-style: outset;   
+}
+
+.yelo{
+    background-color: yellowgreen;
+}
+#green{
+    background-color: greenyellow;
+}
+td:nth-child(even){
+    background-color: yellowgreen;
+}
+td:nth-child(odd){
+    background-color:greenyellow;
+}
+th:nth-child(even){
+    background-color: greenyellow;
+}
